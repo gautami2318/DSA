@@ -1,0 +1,13 @@
+def linear_search(arr, target):
+    for item in arr:
+        if item == target:
+            return True  # If the item is found
+    return False  # If the item is not found
+
+# Example usage
+arr = [3, 6, 9, 12, 15]
+target = 9
+if linear_search(arr, target):
+    print(f"Target {target} is in the list!")
+else:
+    print(f"Target {target} is not in the list.")
