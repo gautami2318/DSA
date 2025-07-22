@@ -1,0 +1,13 @@
+stack = [10, 20, 30]  
+
+def pop():
+    if len(stack) == 0:
+        print("Stack is empty! Cannot pop.")
+        return None
+    item = stack.pop()
+    print(f"Popped {item} -> Stack: {stack}")
+    return item
+pop()
+pop()
+pop()
+pop()  
