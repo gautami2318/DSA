@@ -1,0 +1,7 @@
+stack = []
+def push(item):
+    stack.append(item)
+    print(f"pushed {item} -> Stack :{stack}")
+    
+push(10)
+push(20)
